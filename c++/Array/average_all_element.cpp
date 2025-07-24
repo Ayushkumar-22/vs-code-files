@@ -9,7 +9,7 @@ int main() {
         cin >> arr[i];
         sum += arr[i];
     }
-    cout << sum;
+    cout << (sum/n);
 
     return 0;
 }
