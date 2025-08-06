@@ -14,7 +14,7 @@ int main(){
                 for (int k = j; k < n - 1; k++) {
                     arr[k] = arr[k + 1];
                 }
-                n--;  // Reduce array size
+                n--;
             }
             else {
                 j++;  // Only increment j if no duplicate was found
